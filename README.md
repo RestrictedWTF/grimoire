@@ -4,23 +4,6 @@
 
 Internal reference corpus for [RestrictedWTF](https://github.com/RestrictedWTF). We take massive vendor PDFs and convert them to structured markdown so we're not parsing 5,000-page PDFs at inference time.
 
-## Structure
-
-```
-grimoire/
-├── intel/
-│   └── sdm/
-│       └── sdm-combined.md
-├── amd/
-│   ├── svm/
-│   └── apm/
-├── microsoft/
-│   └── windows-internals/
-├── uefi/
-└── .docling/
-    └── docling_aio.py    # conversion script
-```
-
 Dump processed markdowns in the relevant folder. That's it.
 
 ## License & Attribution
